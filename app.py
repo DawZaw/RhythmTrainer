@@ -32,7 +32,7 @@ class App:
         tick: int = self.bpm_to_ms(bpm)
         self.notes.update_image()
         self.metronome.beep()
-        delta = int(time.perf_counter() - start) * 1000
+        delta: int = int(time.perf_counter() - start) * 1000
         self.root.after(tick - delta, self.update)
 
     def get_screensize(self) -> tuple[int, int]:
