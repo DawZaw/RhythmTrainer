@@ -16,7 +16,7 @@ This app was created to prevent memorizing given sequence of subdivisions, by ge
 - CustomTkinter
 
 ### GUI 
-The GUI consits of 2 groups of notes, BPM counter, and BPM selector, with slider and buttons for more precision.
+The GUI consists of 2 groups of notes, BPM counter, and BPM selector, with slider and buttons for more precision.
 
 Left group of notes is the one you are supposed to play. Right group is the preview of incoming notes, which will move to the left on metronome beep. 
 
